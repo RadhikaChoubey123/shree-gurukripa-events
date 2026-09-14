@@ -7,7 +7,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import AllServices from "./pages/AllServices";
 import AllPackages from "./pages/AllPackages";
-import gallery from "./pages/gallery";
+import Gallery from "./pages/gallery";
 // import Contact from "./pages/Contact";
 import Inquiry from "./pages/Inquiry";
 
