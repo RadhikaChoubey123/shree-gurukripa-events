@@ -4,7 +4,7 @@ import { Sparkles, ArrowRight, Loader2, } from "lucide-react";
 import { Link } from "react-router-dom";
 import hero3 from "../assets/images/hero3.jpeg";
 
-const API_URL = "http://localhost:5000/api/services";
+const API_URL = "https://shree-gurukripa-events-backend.onrender.com/api/services";
 
 const AllServices = () => {
 

@@ -28,7 +28,7 @@ const AdminLogin = () => {
 
     try {
       const response = await fetch(
-        "http://localhost:5000/api/admin/login",
+        "https://shree-gurukripa-events-backend.onrender.com/api/admin/login",
         {
           method: "POST",
           headers: {
@@ -58,12 +58,12 @@ const AdminLogin = () => {
 
   return (
     <div className="min-h-screen bg-[#050505] text-white flex items-center justify-center px-4 relative overflow-hidden">
-      
+
       {/* Background Glows */}
       <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-96 h-96 bg-yellow-500/10 blur-[180px] rounded-full pointer-events-none"></div>
 
       <div className="relative z-10 w-full max-w-md bg-[#101010] border border-white/10 hover:border-yellow-500/30 transition-all duration-300 rounded-3xl p-8 md:p-10 shadow-2xl">
-        
+
         {/* Top Badge */}
         <div className="text-center mb-6">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-yellow-500/10 border border-yellow-500/30 text-yellow-400 text-xs uppercase tracking-[3px] mb-4 backdrop-blur-md">
@@ -86,7 +86,7 @@ const AdminLogin = () => {
         )}
 
         <form onSubmit={handleSubmit} className="space-y-5">
-          
+
           {/* Email Input */}
           <div>
             <label className="block text-xs uppercase tracking-wider text-gray-400 font-semibold mb-2">

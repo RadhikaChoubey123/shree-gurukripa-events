@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:5000/api";
+const API_URL = "https://shree-gurukripa-events-backend.onrender.com/api";
 
 // ===============================
 // GET ALL GALLERY IMAGES
@@ -14,7 +14,6 @@ export const getGallery = async () => {
 
   return data;
 };
-
 
 // ===============================
 // UPLOAD GALLERY IMAGE
@@ -44,7 +43,6 @@ export const uploadGallery = async ({ title, category, image }) => {
 
   return data;
 };
-
 
 // ===============================
 // DELETE GALLERY IMAGE

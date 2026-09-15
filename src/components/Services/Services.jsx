@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Sparkles, ArrowRight, Loader2 } from "lucide-react";
 import ServiceCard from "./ServiceCard";
 
-const API_URL = "http://localhost:5000/api/services";
+const API_URL ="https://shree-gurukripa-events-backend.onrender.com/api/services";
 
 const Services = () => {
   const { data, isLoading, isError } = useQuery({

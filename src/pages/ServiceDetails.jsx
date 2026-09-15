@@ -12,7 +12,7 @@ import {
   Star,
 } from "lucide-react";
 
-const API_URL = "http://localhost:5000/api/services";
+const API_URL ="https://shree-gurukripa-events-backend.onrender.com/api/services";
 
 const ServiceDetails = () => {
   const { id } = useParams();

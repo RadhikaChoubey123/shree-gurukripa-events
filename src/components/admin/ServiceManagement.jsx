@@ -14,7 +14,7 @@ import {
   Loader2,
 } from "lucide-react";
 
-const API_URL = "http://localhost:5000/api/services";
+const API_URL ="https://shree-gurukripa-events-backend.onrender.com/api/services";
 
 const ServiceManagement = () => {
   const queryClient = useQueryClient();

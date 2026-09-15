@@ -11,7 +11,7 @@ import {
   Star,
 } from "lucide-react";
 
-const API_URL = "http://localhost:5000/api/packages";
+const API_URL = "https://shree-gurukripa-events-backend.onrender.com/api/packages";
 
 const PackageDetails = () => {
   const { id } = useParams();
@@ -44,10 +44,10 @@ const PackageDetails = () => {
     }
 
     if (image.startsWith("/")) {
-      return `http://localhost:5000${image}`;
+      return `https://shree-gurukripa-events-backend.onrender.com${image}`;
     }
 
-    return `http://localhost:5000/${image}`;
+    return `https://shree-gurukripa-events-backend.onrender.com/${image}`;
   };
 
   /* ================= LOADING ================= */

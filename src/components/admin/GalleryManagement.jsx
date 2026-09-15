@@ -14,7 +14,7 @@ import {
   Eye,
 } from "lucide-react";
 
-const API_URL = "http://localhost:5000/api/gallery";
+const API_URL = "https://shree-gurukripa-events-backend.onrender.com/api/gallery";
 
 const GalleryManagement = () => {
   const queryClient = useQueryClient();

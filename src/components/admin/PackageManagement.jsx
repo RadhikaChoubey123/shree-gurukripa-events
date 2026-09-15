@@ -15,7 +15,7 @@ import {
   IndianRupee,
 } from "lucide-react";
 
-const API_URL = "http://localhost:5000/api/packages";
+const API_URL ="https://shree-gurukripa-events-backend.onrender.com/api/packages";
 
 const PackageManagement = () => {
   const queryClient = useQueryClient();
